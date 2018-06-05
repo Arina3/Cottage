@@ -1,0 +1,100 @@
+.container-main.work.page {
+    padding: 50px 0;
+    ul.works-list.page {
+        li.work-item {
+            padding: 50px 0;
+            @media (min-width: 320px) {
+                text-align: center;
+            }
+            @media (min-width: 767px) {
+                text-align: center;
+            }
+            @media (min-width: 991px) {
+                text-align: center;
+            }
+            @media (min-width: 1119px) {
+                text-align: left;
+            }
+            h3 {
+                padding-left: 25px;
+                font-family: $primary-font;
+                line-height: 25px;
+                color: $heading-color;
+                font-size: 18px;
+                font-weight: 700;
+                margin-bottom: 0;
+                transition: all 300ms ease-out 0s;
+                @media (min-width: 320px) {
+                    padding: 0;
+                }
+                @media (min-width: 767px) {
+                    padding: 0;
+                }
+                @media (min-width: 991px) {
+                    padding: 0;
+                }
+                @media (min-width: 1119px) {
+                    padding-left: 25px;
+                }
+
+                &:hover {
+                    color: $mark-color;
+                }
+            }
+            div.work-image img {
+                height: auto;
+            }
+
+            p {
+                color: $primary-color;
+                font-family: $primary-font;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 25px;
+                margin-top: 0;
+                padding-left: 25px;
+                @media (min-width: 320px) {
+                    padding: 0;
+                }
+                @media (min-width: 767px) {
+                    padding: 0;
+                }
+                @media (min-width: 991px) {
+                    padding: 0;
+                }
+                @media (min-width: 1119px) {
+                    padding-left: 25px;
+                }
+            }
+
+            .work-details {
+                p {
+                    color: $primary-color;
+                    font-family: $primary-font;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    padding: 0;
+                }
+            }
+        }
+    }
+}
+
+
+/*  Styles for Work single page*/
+
+ul.works-list.page.single {
+    li.work-item.single {
+        h3.single{
+            text-align: center;
+            font-size: 28px;
+            color: $mark-color;
+        }
+        p.single {
+            text-align: center;
+            font-size: 18px;
+        }
+    }
+}
+

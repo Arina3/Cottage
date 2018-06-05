@@ -1,0 +1,62 @@
+.container-main.posts.page {
+    ul.blog-list.page {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        article {
+            width: 100%;
+            max-width: 75em;
+            padding-bottom: 50px;
+        }
+    }
+}
+
+/* Styles for Pagination*/
+
+nav.pagination {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    h2.screen-reader-text {
+        display: none;
+    }
+    div.nav-links {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px;
+        span {
+            width: 51px;
+            height: 51px;
+            border: 2px solid $mark-color;
+            background-color: $primary-color;
+            color: $mark-color;
+            font-family: $primary-font;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 51px;
+            text-transform: uppercase;
+            letter-spacing: 1.35px;
+            text-align: center;
+        }
+        a {
+            width: 51px;
+            height: 51px;
+            border: 2px solid #2a2b2c;
+            background-color: $primary-color;
+            color: #2a2b2c;
+            font-family: $primary-font;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 51px;
+            text-transform: uppercase;
+            letter-spacing: 1.35px;
+            text-align: center;
+            &:hover {
+                border: 2px solid $mark-color;
+                background-color: $primary-color;
+                color: $mark-color;
+            }
+        }
+    }
+}

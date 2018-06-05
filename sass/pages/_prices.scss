@@ -1,0 +1,71 @@
+.container-main.price.page {
+    padding: 70px 0;
+    ul.prices-list.single li.price-item {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 75em;
+        .price-item-main {
+            display: flex;
+            justify-content: space-between;
+            .price-item-header {
+                max-height: 300px;
+                border: none;
+                .price-item-header-info {
+                    border: none;
+                }
+            }
+            ul.price-features-list {
+                width: 100%;
+                max-width: 700px;
+                li {
+                    width: 100%;
+                    max-width: 700px;
+                    display: flex;
+                    justify-content: flex-start;
+                    .feature-icon {
+                        padding: 0 50px;
+                    }
+                    div.details {
+                        h4 {
+                            color: $heading-color;
+                            font-family: $primary-font;
+                            font-size: 18px;
+                            font-weight: 700;
+                            line-height: 28px;
+                            margin-top: 0;
+                        }
+                        p {
+                            color: $primary-color;
+                            font-family: $primary-font;
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 24px;
+                        }
+                    }
+                }
+            }
+        }
+        .price-contact-link {
+            width: 100%;
+            max-width: 700px;
+            border-radius: 3px;
+            background-color: $primary-color;
+            margin: 0 auto;
+            text-align: center;
+            a {
+                color: $secondary-color;
+                font-family: $primary-font;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 50px;
+                text-transform: uppercase;
+                transition: all 300ms ease-out 0s;
+
+                &:hover {
+                    background-color: $mark-color;
+                }
+            }
+        }
+    }
+}

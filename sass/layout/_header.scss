@@ -1,0 +1,273 @@
+header {
+    border-bottom: 1px solid #f5f5ef;
+}
+
+.site-branding.header {
+    align-items: center;
+    div.logo {
+        max-height: 36px;
+        @media (min-width: 320px) {
+            max-width: 134px;
+            margin: 0 auto;
+        }
+        @media (min-width: 767px) {
+            max-width: 134px;
+            margin: 0 auto;
+        }
+        @media (min-width: 991px) {
+            max-width: 134px;
+            margin: 0 auto;
+        }
+        @media (min-width: 1119px) {
+            max-width: 134px;
+            margin-left: 0;
+        }
+        a.custom-logo-link {
+            transition: all 0.3s ease 0s;
+        }
+    }
+    div.site-navigation {
+        width: 100%;
+        max-width: 533px;
+        @media (min-width: 320px) {
+            margin: 20px 0;
+            max-width: 300px;
+            width: 100%;
+        }
+        @media (min-width: 767px) {
+            margin: 20px 0;
+            max-width: 700px;
+            width: 100%;
+        }
+        @media (min-width: 991px) {
+            margin: 20px 0;
+            max-width: 900px;
+            width: 100%;
+        }
+        @media (min-width: 1119px) {
+            margin: 0;
+            max-width: 533px;
+            width: 100%;
+        }
+        div.custom-menu-class {
+            ul.menu {
+                display: flex;
+                justify-content: space-between;
+                a {
+                    color: $primary-color;
+                    font-family: $primary-font;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 32px;
+                    transition: all 0.3s ease 0s;
+                    border-bottom: transparent;
+                    padding-bottom: 3px;
+                    @media (min-width: 320px) {
+                        transition: none;
+                    }
+                    @media (min-width: 767px) {
+                        transition: none;
+                    }
+                    @media (min-width: 991px) {
+                        transition: all 0.3s ease 0s;
+                    }
+                    @media (min-width: 1119px) {
+                        transition: all 0.3s ease 0s;
+                    }
+
+                    &:hover {
+                        border-bottom: 3px solid $mark-color;
+                        padding-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.container-search-lang {
+    .search-field {
+        background-color: transparent;
+        background-image: url('../images/search-icon.png');
+        background-position: 5px center;
+        background-repeat: no-repeat;
+        background-size: 15px 16px;
+        border: none;
+        cursor: pointer;
+        height: 37px;
+        margin: 3px 0;
+        padding: 0 0 0 34px;
+        position: relative;
+        -webkit-transition: width 400ms ease, background 400ms ease;
+        transition: width 400ms ease, background 400ms ease;
+        width: 100%;
+        max-width: 24px;
+    }
+}
+
+.site-header .search-field:focus {
+    background-color: $secondary-color;
+    color: $primary-color;
+    font-family: $primary-font;
+    border: 1px solid $primary-color;
+    border-radius: 10px;
+    font-weight: 400;
+    cursor: text;
+    outline: 0;
+    width: 100%;
+    max-width: 240px;
+    position: absolute;
+    right: 20px;
+}
+
+.search-form {
+    .search-submit {
+        display: none;
+        &:hover {
+        display: block;
+        }
+    }
+}
+
+section.main-background {
+    background-color: transparent;
+    background-image: url('../images/main-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 560px;
+    .container-header-small {
+        width: 100%;
+        max-width: 600px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        h1 {
+            color: $secondary-color;
+            font-family: $primary-font;
+            font-size: 45px;
+            font-weight: 700;
+            line-height: 53.33px;
+            text-transform: uppercase;
+            letter-spacing: -0.32px;
+            @media (min-width: 320px) {
+                font-size: 34px;
+            }
+            @media (min-width: 767px) {
+                font-size: 38px;
+            }
+            @media (min-width: 991px) {
+                font-size: 42px;
+            }
+            @media (min-width: 1119px) {
+                font-size: 45px;
+            }
+        }
+        p {
+            color: $secondary-color;
+            font-family: $primary-font;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 28px;
+            @media (min-width: 320px) {
+                font-size: 14px;
+            }
+            @media (min-width: 767px) {
+                font-size: 15px;
+            }
+            @media (min-width: 991px) {
+                font-size: 16px;
+            }
+            @media (min-width: 1119px) {
+                font-size: 18px;
+            }
+        }
+        a {
+            width: 230px;
+            height: 55px;
+            border-radius: 3px;
+            background-color: $mark-color;
+            color: $secondary-color;
+            font-family: $primary-font;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 55px;
+            text-transform: uppercase;
+            text-align: center;
+            transition: all 0.3s ease 0s;
+            @media (min-width: 320px) {
+                margin-top: 15px;
+                width: 200px;
+                height: 45px;
+                font-size: 14px;
+                line-height: 45px;
+            }
+            @media (min-width: 767px) {
+                margin-top: 15px;
+                width: 210px;
+                height: 48px;
+                font-size: 16px;
+                line-height: 48px;
+            }
+            @media (min-width: 991px) {
+                margin-top: 15px;
+                width: 220px;
+                height: 50px;
+                font-size: 17px;
+                line-height: 50px;
+            }
+            @media (min-width: 1119px) {
+                margin-top: 0;
+                width: 230px;
+                height: 55px;
+                font-size: 18px;
+                line-height: 55px;
+            }
+
+            &:hover {
+              background-color: $secondary-color;
+              color: $mark-color;
+            }
+        }
+    }
+}
+
+/*Styles for Languages drop-down*/
+
+select {
+    font-family: $primary-font;
+    border: none;
+    color: $primary-color;
+}
+
+/* Styles for burger menu */
+
+
+.menu-trigger {
+    display: none;
+}
+
+@media screen and (max-width: 853px) {
+    .menu-trigger {
+        display: block;
+        font-size: 30px;
+        margin: 0 auto;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+    }
+    div.custom-menu-class{
+        display: none;
+        ul {
+            flex-direction: column;
+            align-items: center;
+            li {
+                border-bottom: 1px solid $background-color;
+                padding: 10px 0;
+            }
+        }
+    }
+}
+

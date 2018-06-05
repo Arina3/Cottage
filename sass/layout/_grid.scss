@@ -1,0 +1,96 @@
+div.container-main.header {
+    padding: 25px 0;
+    div.site-branding {
+        float: left;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 761px;
+        @media (min-width: 320px) {
+            display: block;
+            float: none;
+        }
+        @media (min-width: 767px) {
+            display: block;
+            float: none;
+        }
+        @media (min-width: 991px) {
+            display: block;
+            float: none;
+
+        }
+        @media (min-width: 1119px) {
+            display: flex;
+            float: left;
+        }
+    }
+    div.container-search-lang {
+        float: right;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 100px;
+        align-items: center;
+        @media (min-width: 320px) {
+            margin: 0 auto;
+            float: none;
+        }
+        @media (min-width: 767px) {
+            margin: 0 auto;
+            float: none;
+        }
+        @media (min-width: 991px) {
+            margin: 0 auto;
+            float: none;
+        }
+        @media (min-width: 1119px) {
+            margin-right: 0;
+            float: right;
+        }
+    }
+}
+
+section.about-company {
+    background-color: $background-color;
+    div.container-main.about {
+        width: 100%;
+        max-width: 1000px;
+        text-align: center;
+        padding: 25px 0;
+        @media (min-width: 320px) {
+            max-width: 17em;
+        }
+        @media (min-width: 767px) {
+            max-width: 40em;;
+        }
+        @media (min-width: 991px) {
+            max-width: 50em;
+        }
+        @media (min-width: 1119px) {
+            max-width: 60em;
+        }
+        p {
+            color: $primary-color;
+            font-family: $primary-font;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+            @media (min-width: 320px) {
+                font-size: 14px;
+            }
+            @media (min-width: 767px) {
+                font-size: 15px;
+            }
+            @media (min-width: 991px) {
+                font-size: 15px;
+            }
+            @media (min-width: 1119px) {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+div.container-main.work {
+    padding: 0 0 90px 0;
+}

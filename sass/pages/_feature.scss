@@ -1,0 +1,13 @@
+.container-main.feature.page {
+    ul.features-list.page {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        li {
+            width: 100%;
+            max-width: 75em;
+            padding-bottom: 50px;
+        }
+    }
+}
+
